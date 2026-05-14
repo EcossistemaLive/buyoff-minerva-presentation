@@ -48,235 +48,439 @@
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
         }
+        .content-block h3 {
+            font-family: 'Outfit', sans-serif;
+            font-weight: 600;
+            font-size: 1.25rem;
+            color: #fff;
+            margin-top: 1.5rem;
+            margin-bottom: 0.75rem;
+        }
+        .content-block p {
+            margin-bottom: 0.75rem;
+            line-height: 1.6;
+        }
+        .content-block ul {
+            list-style-type: disc;
+            margin-left: 1.5rem;
+            margin-bottom: 1rem;
+        }
+        .content-block li {
+            margin-bottom: 0.25rem;
+        }
     </style>
 </head>
 <body class="font-sans antialiased text-slate-300 pb-20">
     
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+    <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <!-- Header -->
         <header class="mb-16 text-center">
-            <h1 class="font-heading text-4xl md:text-6xl font-extrabold text-white mb-4">
-                Plano de Negócios BuyOff <span class="text-brand-500 text-3xl align-top">v1.4</span> <br/> 
-                <span class="gradient-text">& Parceria Minerva</span>
+            <h1 class="font-heading text-4xl md:text-5xl font-extrabold text-white mb-4">
+                Plano de Negócios — <span class="gradient-text">BuyOff</span> <br/>
+                <span class="text-brand-500 text-2xl font-normal">(v1.4 — atualização completa)</span>
             </h1>
-            <p class="text-lg md:text-xl text-slate-400 font-light mb-8 max-w-3xl mx-auto">
-                Modelo de atuação, premissas operacionais, estratégia de monetização e governança corporativa da operação de compras estruturadas.
-            </p>
-            <div class="inline-flex items-center space-x-2 bg-brand-900/50 border border-brand-500/30 rounded-full px-6 py-2 text-brand-100 text-sm font-medium">
-                <svg class="w-5 h-5 text-brand-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
-                <span>Maio de 2026 | Estruturação Comercial Estratégica</span>
+            <div class="inline-flex items-center space-x-2 bg-brand-900/50 border border-brand-500/30 rounded-full px-6 py-2 text-brand-100 text-sm font-medium mt-4">
+                <svg class="w-5 h-5 text-brand-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path></svg>
+                <span>Documento Executivo na Íntegra</span>
             </div>
         </header>
 
-        <!-- Sumário Executivo BuyOff -->
-        <div class="glass-card rounded-2xl p-6 md:p-8 mb-12 border-l-4 border-l-blue-500">
-            <h3 class="font-heading text-2xl font-bold text-white mb-4">Sumário Executivo — BuyOff</h3>
-            <p class="leading-relaxed mb-4">
-                A BuyOff terceiriza compras para AnimalFeed entregando economia, segurança e governança. Monetização via Assinatura (acesso + inteligência + ritos), TGC (Taxa de Gestão de Compras % sobre volume financeiro) e Pay-per-use no plano de entrada.
-            </p>
-            <div class="bg-blue-900/30 border border-blue-500/30 p-4 rounded-lg mt-4">
-                <p class="text-blue-200 font-semibold flex items-center">
-                    <svg class="w-6 h-6 mr-2 text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path></svg>
-                    Regra de Ouro: A BuyOff só recebe do cliente. Sem comissionamento de fornecedor, sem rebate oculto, sem "caixa-preta".
-                </p>
-            </div>
+        <!-- Seção 1 -->
+        <div class="glass-card rounded-2xl p-8 mb-8 content-block border-l-4 border-brand-500">
+            <h2 class="font-heading text-2xl font-bold text-white mb-4">1) Sumário Executivo</h2>
+            <p>A BuyOff terceiriza compras para AnimalFeed em três níveis (com opção de um plano de entrada), entregando economia, segurança e governança, por meio de:</p>
+            <ul>
+                <li>Assinatura (acesso + inteligência + ritos)</li>
+                <li>TGC — Taxa de Gestão de Compras (percentual sobre o volume financeiro gerido)</li>
+                <li>Pay-per-use (opcional no plano de entrada)</li>
+            </ul>
+            <p><strong>Regra de ouro (deixar em negrito no plano e no contrato):</strong></p>
+            <p class="text-white font-bold bg-brand-900/40 p-4 rounded-lg border border-brand-500/30 mt-2">✅ A BuyOff só recebe do cliente.<br>Sem comissionamento de fornecedor, sem rebate oculto, sem “caixa-preta”.</p>
         </div>
 
-        <div class="grid lg:grid-cols-2 gap-8 mb-12">
-            <!-- Premissas e Projeções -->
-            <section class="glass-card rounded-3xl p-8">
-                <h2 class="font-heading text-2xl font-bold text-white mb-6 border-b border-slate-700 pb-2">1. Base de Premissas & Projeções</h2>
-                
-                <div class="space-y-6">
-                    <div>
-                        <h4 class="text-lg font-semibold text-brand-300">Benchmarks (Ago/25 a Mar/26)</h4>
-                        <ul class="text-sm space-y-2 mt-2 text-slate-400">
-                            <li>• <strong>Farelo de Soja:</strong> ~71,9% dos contratos no ano e 73,4% no período. Em toneladas representa 74,1%.</li>
-                            <li>• <strong>Base-case:</strong> 72%–74% de participação do farelo (foco "categoria-mãe").</li>
-                            <li>• <strong>Upper-case:</strong> 75% (para estresse e risco de concentração).</li>
-                        </ul>
-                    </div>
-                    <div>
-                        <h4 class="text-lg font-semibold text-brand-300">Projeção de Volume (12 Meses)</h4>
-                        <ul class="text-sm space-y-2 mt-2 text-slate-400">
-                            <li>• <strong>Rampa Conservadora:</strong> Início M1 com 5.000 t/mês evoluindo para 26.000 t/mês no M12.</li>
-                            <li>• <strong>Vantagem Estratégica:</strong> Diferente do benchmark, a BuyOff nasce com maior liberdade de originação (teto de volume ampliado, menor risco de ruptura de supply).</li>
-                        </ul>
-                    </div>
-                    <div>
-                        <h4 class="text-lg font-semibold text-brand-300">Portfólio (Primeiros 90 Dias)</h4>
-                        <p class="text-sm text-slate-400 mt-2">Farelo de soja, soja, milho, sorgo, DDGs, óleo de soja degomado e logística. Foco inicial no "core" de maior recorrência.</p>
-                    </div>
-                </div>
-            </section>
-
-            <!-- Monetização -->
-            <section class="glass-card rounded-3xl p-8">
-                <h2 class="font-heading text-2xl font-bold text-white mb-6 border-b border-slate-700 pb-2">2. Precificação & Receita</h2>
-                
-                <div class="space-y-6">
-                    <div>
-                        <h4 class="text-lg font-semibold text-blue-300">TGC Oficial (Taxa de Gestão)</h4>
-                        <p class="text-sm text-slate-400 mt-2">Decrescente com a escala: 1,0% (M1-M3) → 0,9% → 0,8% → 0,7% → 0,6% (M12).<br>O motor principal de receita é o TGC, garantindo performance e rentabilidade à medida que o volume avança.</p>
-                    </div>
-                    <div>
-                        <h4 class="text-lg font-semibold text-blue-300">Assinaturas (Plano Selecionado "B")</h4>
-                        <div class="grid grid-cols-2 gap-2 mt-2 text-sm text-slate-400">
-                            <div class="bg-dark-900/50 p-2 rounded"><strong>Plano 0 (Radar):</strong> R$ 218/mês</div>
-                            <div class="bg-dark-900/50 p-2 rounded"><strong>Plano 1:</strong> R$ 500/mês</div>
-                            <div class="bg-dark-900/50 p-2 rounded"><strong>Plano 2:</strong> R$ 1.500/mês</div>
-                            <div class="bg-dark-900/50 p-2 rounded"><strong>Plano 3:</strong> R$ 3.000/mês</div>
-                        </div>
-                    </div>
-                    <div class="bg-blue-900/10 p-4 border border-blue-500/20 rounded-xl">
-                        <h4 class="text-sm font-semibold text-blue-200">Projeção M12 (26k tons)</h4>
-                        <ul class="text-xs space-y-1 mt-2 text-slate-300">
-                            <li>• Receita de Assinaturas M12: R$ 200.400/mês</li>
-                            <li>• TGC M12 (0,6% s/ GMV de 42,2M): R$ 253.656/mês</li>
-                            <li>• Motor equilibrado: Receita diversificada entre Micro/Pequenos (P0/P1), Médios (P2) e Grandes (P3).</li>
-                        </ul>
-                    </div>
-                </div>
-            </section>
-        </div>
-
-        <!-- Estrutura, Comissionamento e Regras (Tabs like visual) -->
-        <div class="glass-card rounded-3xl p-8 mb-12">
-            <h2 class="font-heading text-3xl font-bold text-white mb-8 text-center">3. Estrutura, Operação e Governança</h2>
+        <!-- Seção 2 -->
+        <div class="glass-card rounded-2xl p-8 mb-8 content-block">
+            <h2 class="font-heading text-2xl font-bold text-white mb-4 border-b border-slate-700 pb-2">2) Base de Premissas e Benchmark (para banca)</h2>
             
-            <div class="grid md:grid-cols-3 gap-6">
-                <!-- Custos e Marketing -->
-                <div class="bg-dark-800 rounded-2xl p-6 border border-slate-700 hover:border-brand-500 transition-colors">
-                    <h3 class="text-lg font-bold text-white mb-4 flex items-center">
-                        <svg class="w-5 h-5 mr-2 text-brand-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
-                        Custos & Marketing
-                    </h3>
-                    <ul class="text-sm space-y-3 text-slate-400">
-                        <li><strong>Sala (Goiânia):</strong> ~R$ 4.550/mês all-in.</li>
-                        <li><strong>Time M1-M7:</strong> 2 Vendas, 2 Compras, 1 Adm/Fin, Direção. M8-M12: +2 Compras.</li>
-                        <li><strong>Tech & Compliance:</strong> ~R$ 7.000/mês.</li>
-                        <li><strong>Marketing:</strong> R$ 15.000/mês. Foco triplo: Google Ads (intenção), Meta (escala), LinkedIn ABM (grandes contas).</li>
-                    </ul>
-                </div>
+            <h3>2.1 Benchmark histórico (Ago/2025 → Mar/2026)</h3>
+            <p>2.363 contratos no período.<br>1734 contratos de farelo de soja.</p>
+            <p>Participação do farelo (atualizado com seus dados):</p>
+            <ul>
+                <li>% de contratos (período): 1734 / 2363 = 73,38%</li>
+                <li>% em toneladas (sobre as toneladas listadas no período): 130.634,920 t / 176.286,789 t = 74,10%</li>
+            </ul>
+            <p>Conclusão “banca”: o farelo é o núcleo do volume e precisa ser tratado como categoria-mãe do motor operacional.</p>
 
-                <!-- Comissionamento -->
-                <div class="bg-dark-800 rounded-2xl p-6 border border-slate-700 hover:border-purple-500 transition-colors">
-                    <h3 class="text-lg font-bold text-white mb-4 flex items-center">
-                        <svg class="w-5 h-5 mr-2 text-purple-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path></svg>
-                        Comissionamento Saudável
-                    </h3>
-                    <ul class="text-sm space-y-3 text-slate-400">
-                        <li><strong>Vendas:</strong> Fixo + 10% aquisição (M1) + 2% (M2-M6 se ativo) + 1,5% TGC líquida. Bônus por retenção.</li>
-                        <li><strong>Compras:</strong> Fixo + pool de até 4% da TGC, distribuído via KPIs duros (30% SLA, 30% Auditoria, 30% Savings validado, 10% CS). Regra de corte rigorosa.</li>
-                    </ul>
-                </div>
-
-                <!-- Gestão & Operações -->
-                <div class="bg-dark-800 rounded-2xl p-6 border border-slate-700 hover:border-orange-500 transition-colors">
-                    <h3 class="text-lg font-bold text-white mb-4 flex items-center">
-                        <svg class="w-5 h-5 mr-2 text-orange-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2"></path></svg>
-                        Operação e Linha de Produção
-                    </h3>
-                    <ul class="text-sm space-y-3 text-slate-400">
-                        <li><strong>Linha 1-4:</strong> Inteligência > Compra > Execução > Governança (QBR).</li>
-                        <li><strong>Savings 360:</strong> Baseline > Equalização 360 > Validação > Política de crédito estruturada (teto 100% da TGC).</li>
-                        <li><strong>Auditoria Amostral:</strong> 5% das compras/mês (50% sorteio, 50% matriz de risco) + "deep dives".</li>
-                    </ul>
-                </div>
-            </div>
+            <h3>2.2 Benchmark histórico (Jan → Dez/2025)</h3>
+            <p>4.702 contratos no ano.<br>R$ 558.153.236 em faturamento de contratos.<br>Modelo de monetização do benchmark: 1% sobre contratos (referência do setor para take-rate).</p>
+            <p>Participação do farelo (ano):<br>3380 / 4702 = 71,88% dos contratos.</p>
+            
+            <p class="text-white font-medium bg-dark-800 p-4 rounded mt-4">✅ Atualização do plano: em vez de assumir 75% “fixo”, o plano passa a trabalhar com:</p>
+            <ul>
+                <li>Base-case: 72%–74% de participação do farelo (contratos e/ou volume, conforme evidência acima)</li>
+                <li>Upper-case (cenário estressado de concentração): até 75% (para testar risco de dependência)</li>
+            </ul>
         </div>
 
-        <div class="grid md:grid-cols-2 gap-8 mb-12">
-            <!-- SLAs e Plano R$ 218 -->
-            <section class="glass-card rounded-3xl p-8 border-l-4 border-l-purple-500">
-                <h3 class="font-heading text-xl font-bold text-white mb-4">SLAs e Regras Planos (Destaque Plano 0 - R$ 218)</h3>
-                <p class="text-sm text-slate-300 mb-4">O plano de entrada é o topo do funil (gerador de hábito/upsell). Para não quebrar a margem, possui escopo duro:</p>
-                <ul class="space-y-2 text-sm text-slate-400 mb-4">
-                    <li>✓ Dashboard diário, alertas e boletim BuyOff Index.</li>
-                    <li>✓ Suporte <strong>exclusivamente</strong> via central/fila (sem consultor).</li>
-                    <li>✓ Limite de 5 cotações/mês (excedente é pay-per-use).</li>
-                    <li>✓ Compra executada gera 1% de TGC.</li>
-                    <li>✗ Sem QBR, relatórios executivos ou assessoria personalizada.</li>
-                </ul>
-                <p class="text-sm text-slate-400 border-t border-slate-700 pt-3">Os Planos 1, 2 e 3 escalonam de 24h a 4h de SLA, adicionando QBR, recomendação profunda e gestão de categoria exclusiva.</p>
-            </section>
+        <!-- Seção 3 -->
+        <div class="glass-card rounded-2xl p-8 mb-8 content-block">
+            <h2 class="font-heading text-2xl font-bold text-white mb-4 border-b border-slate-700 pb-2">3) Projeção de Volume (12 meses) — ajustada para 26 mil t/mês</h2>
+            
+            <h3>3.1 Rampa conservadora (nova)</h3>
+            <p>M1: 5.000 t/mês<br>M12: 26.000 t/mês<br>Crescimento linear (modelo-base “banca”)</p>
 
-            <!-- Blindagem de Riscos -->
-            <section class="glass-card rounded-3xl p-8 border-l-4 border-l-red-500">
-                <h3 class="font-heading text-xl font-bold text-white mb-4">Mapeamento de Riscos e Blindagem</h3>
-                <ul class="space-y-4 text-sm text-slate-400">
-                    <li><strong>A. Conflito de Interesse:</strong> Blindado pela remuneração exclusiva do cliente e auditorias.</li>
-                    <li><strong>B. Escopo Infinito (Morte de margem):</strong> Limites contratuais rígidos e SLAs escalonados.</li>
-                    <li><strong>C. Queda de SLA:</strong> Gatilhos automáticos de contratação (+1 Comprador a cada 25k ton ou SLA < 90%).</li>
-                    <li><strong>D. Concentração Farelo:</strong> Diversificação gradual do mix.</li>
-                    <li><strong>E. Oscilação de Preços:</strong> Receita fixa de assinatura equilibra quedas temporárias no GMV/TGC.</li>
-                </ul>
-            </section>
+            <h3>3.2 Observação estratégica (vantagem competitiva real)</h3>
+            <p>O benchmark histórico opera com restrições de volume por limitações comerciais/estruturais do ecossistema de suprimento (limitação de tonelagem liberada por determinados ofertantes e impossibilidade de atender toda a base).</p>
+            <p>A BuyOff nasce com maior liberdade de originação (mais opções de fornecedores e rotas), o que aumenta:</p>
+            <ul>
+                <li>teto de volume (capacidade de absorver demanda reprimida)</li>
+                <li>poder de comparação e equalização</li>
+                <li>resiliência de supply (redução de risco de ruptura)</li>
+            </ul>
+            <p>Como isso entra no plano: a rampa 5k→26k é o conservador; o upside existe por “liberação de teto” de oferta, sem depender de aumento de demanda final.</p>
         </div>
 
-        <!-- CONTEXTO MINERVA (ORIGINAL) -->
-        <h2 class="font-heading text-3xl font-bold text-white text-center mt-16 mb-8 border-t border-slate-700 pt-16">
-            Estratégia Aplicada: Parceria Minerva
-        </h2>
-
-        <div class="space-y-8 mb-12">
-            <!-- Minerva Proposta -->
-            <section class="glass-card rounded-3xl p-8 transition-transform duration-300 hover:-translate-y-1">
-                <div class="flex items-center space-x-4 mb-6">
-                    <div class="w-10 h-10 rounded-full bg-blue-500/20 flex items-center justify-center text-blue-400 font-heading font-bold">1</div>
-                    <h3 class="font-heading text-2xl font-bold text-white">Cenário Minerva & "Buy-Off"</h3>
-                </div>
-                <div class="grid md:grid-cols-2 gap-8 text-sm">
-                    <div>
-                        <p class="text-slate-300 mb-3"><strong>Desafio:</strong> A Minerva (16 frigoríficos, 12 com graxaria) opera com produção empurrada, sem estoques e com rígido compliance contra corretagens. Mais da metade da produção vai ao mercado externo.</p>
-                        <p class="text-slate-300"><strong>A Solução Buy-Off:</strong> Elimina a corretagem convencional. A intermediação se dá em compra/revenda, centralizando o faturamento diretamente na matriz compradora, viabilizando o negócio em áreas inexploradas pela Minerva (ex: DF).</p>
-                    </div>
-                    <div class="bg-dark-900/50 p-4 rounded-xl border border-slate-700">
-                        <h4 class="font-bold text-white mb-2">Execução Operacional</h4>
-                        <p class="text-slate-400">As homologações e negociações logísticas são lideradas pela Okamoto diretamente nas matrizes dos clientes (ex: Pluma). Gestão integrada de CIF/FOB via transportadoras fidelizadas, garantindo divisão de rentabilidade sem emissão de comissões proibidas pela indústria.</p>
-                    </div>
-                </div>
-            </section>
-
-            <!-- Decisoes Chave e Action Items -->
-            <section class="glass-card rounded-3xl p-8 transition-transform duration-300 hover:-translate-y-1 border border-brand-500/30">
-                <div class="flex items-center space-x-4 mb-6">
-                    <div class="w-10 h-10 rounded-full bg-red-500/20 flex items-center justify-center text-red-400 font-heading font-bold">2</div>
-                    <h3 class="font-heading text-2xl font-bold text-white">Itens de Ação e Decisões Chave (Ata Minerva)</h3>
-                </div>
-
-                <div class="grid md:grid-cols-2 gap-8">
-                    <!-- Itens de Ação -->
-                    <div>
-                        <h4 class="text-lg font-semibold text-white mb-4">Próximos Passos (Action Items)</h4>
-                        <ul class="space-y-3 text-sm">
-                            <li class="flex items-start"><span class="px-2 py-1 bg-brand-900/40 text-brand-300 rounded text-xs font-bold mr-3 mt-0.5 shrink-0 w-20 text-center">Okamoto</span> <span class="text-slate-300">Estudo de proximidade logística dos clientes com as plantas da Minerva (DF e GO).</span></li>
-                            <li class="flex items-start"><span class="px-2 py-1 bg-blue-900/40 text-blue-300 rounded text-xs font-bold mr-3 mt-0.5 shrink-0 w-20 text-center">Minerva</span> <span class="text-slate-300">Disponibilizar a lista oficial de unidades e as fichas técnicas detalhadas.</span></li>
-                            <li class="flex items-start"><span class="px-2 py-1 bg-brand-900/40 text-brand-300 rounded text-xs font-bold mr-3 mt-0.5 shrink-0 w-20 text-center">Okamoto</span> <span class="text-slate-300">Focar no modelo de "compra e revenda" para buscar e apresentar oportunidades concretas.</span></li>
-                            <li class="flex items-start"><span class="px-2 py-1 bg-purple-900/40 text-purple-300 rounded text-xs font-bold mr-3 mt-0.5 shrink-0 w-20 text-center">Branding</span> <span class="text-slate-300">Guilherme enviará cases de nova identidade visual (Goianita/Vid) para balizar a nova marca Buy-Off.</span></li>
-                        </ul>
-                    </div>
-                    
-                    <!-- Decisões Chave -->
-                    <div class="bg-dark-800 rounded-xl p-6 border border-slate-700">
-                        <h4 class="text-lg font-semibold text-white mb-4">Decisões Estratégicas</h1>
-                        <div class="space-y-4">
-                            <div class="border-l-2 border-brand-500 pl-4">
-                                <p class="text-sm text-slate-300">A Minerva <strong>não cortará clientes existentes</strong>, mas pode reduzir o volume alocado atual para atender um novo parceiro (BuyOff/Okamoto) caso a oferta seja financeiramente mais vantajosa.</p>
-                            </div>
-                            <div class="border-l-2 border-brand-500 pl-4">
-                                <p class="text-sm text-slate-300">A indústria reconhece o peso da carteira e volume negociado (30k-40k ton/mês) da parceira e <strong>não fecha portas</strong>, desde que operado estritamente no modelo de compra direta.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
+        <!-- Seção 4 -->
+        <div class="glass-card rounded-2xl p-8 mb-8 content-block">
+            <h2 class="font-heading text-2xl font-bold text-white mb-4 border-b border-slate-700 pb-2">4) Portfólio de Serviços (Oferta) — com planos, escopo e objetivo</h2>
+            <p><strong>Categorias foco (primeiros 90 dias)</strong><br>Farelo de soja, soja, milho, sorgo, DDGs, óleo de soja degomado e logística.</p>
+            <p>Mensagem institucional: atendemos todas as categorias da formulação e áreas correlatas; iniciamos pelo “core” de maior recorrência e impacto.</p>
         </div>
 
-        <!-- Footer -->
+        <!-- Seção 5 -->
+        <div class="glass-card rounded-2xl p-8 mb-8 content-block">
+            <h2 class="font-heading text-2xl font-bold text-white mb-4 border-b border-slate-700 pb-2">5) Precificação e Receita (detalhamento por faixa e por plano)</h2>
+            
+            <h3>5.1 TGC oficial (definido por você)</h3>
+            <p>TGC decrescente conforme escala: 1,0% → 0,6% (ano 1)</p>
+            <p>Modelo “banca” (aplicação sugerida):</p>
+            <ul>
+                <li>M1–M3: 1,0%</li>
+                <li>M4–M6: 0,9%</li>
+                <li>M7–M9: 0,8%</li>
+                <li>M10–M11: 0,7%</li>
+                <li>M12: 0,6%</li>
+            </ul>
+
+            <h3>5.2 Assinaturas (linhas de produto)</h3>
+            <p>Você tem duas opções de arquitetura:</p>
+            <p><strong>Opção A (mantém 3 planos originais):</strong></p>
+            <ul>
+                <li>Plano 1: R$ 500/mês</li>
+                <li>Plano 2: R$ 1.500/mês</li>
+                <li>Plano 3: R$ 3.000/mês</li>
+            </ul>
+            <p><strong>Opção B (adiciona um plano de entrada R$ 218):</strong></p>
+            <ul>
+                <li>Plano 0 (Radar Diário): R$ 218/mês</li>
+                <li>Plano 1: R$ 500/mês</li>
+                <li>Plano 2: R$ 1.500/mês</li>
+                <li>Plano 3: R$ 3.000/mês</li>
+            </ul>
+            <p>A seguir eu faço o detalhamento completo já assumindo Opção B, porque você pediu avaliação do R$218.</p>
+        </div>
+
+        <!-- Seção 6 -->
+        <div class="glass-card rounded-2xl p-8 mb-8 content-block">
+            <h2 class="font-heading text-2xl font-bold text-white mb-4 border-b border-slate-700 pb-2">6) Avaliação do Plano R$ 218/mês + 1% TGC (quando compra)</h2>
+            
+            <h3>6.1 Quando esse plano é excelente</h3>
+            <p>Ele é excelente se você o tratar como:</p>
+            <ul>
+                <li>produto de alta escala</li>
+                <li>suporte “1 para muitos”</li>
+                <li>sem personalização</li>
+                <li>com gatilho de upgrade claro</li>
+            </ul>
+            <p>Ele vira:</p>
+            <ul>
+                <li>porta de entrada (topo de funil pago)</li>
+                <li>gerador de hábito (uso diário)</li>
+                <li>base de dados (tendência e índice)</li>
+                <li>motor de upsell para Plano 1/2</li>
+            </ul>
+
+            <h3>6.2 Risco principal (o que derruba em banca)</h3>
+            <p>Canibalização do Plano 1 (R$ 500) e custo de suporte.<br>Se o cliente do R$218 exigir “atendimento de consultoria”, o plano quebra.</p>
+
+            <h3>6.3 Como deixar “indefectível” (regras contratuais e operacionais)</h3>
+            <p>Plano 0 (Radar Diário) — regras sugeridas:</p>
+            <ul>
+                <li>inclui: dashboard diário + alertas + boletim semanal + acesso ao BuyOff Index</li>
+                <li>suporte: exclusivamente via central e fila (sem consultor dedicado)</li>
+                <li>inclui: até X solicitações de cotação por mês (ex.: 5); excedente vira pay-per-use</li>
+                <li>execução de compra: quando houver compra gerida, aplica TGC 1% (igual aos demais)</li>
+                <li>sem QBR, sem relatório mensal executivo, sem estoque mínimo</li>
+            </ul>
+            <p class="text-white bg-brand-900/30 p-3 mt-4 rounded">✅ Com isso, o R$218 vira produto e não “serviço disfarçado”. Minha recomendação para banca: implemente o R$218, mas com esse escopo duro e automático.</p>
+        </div>
+
+        <!-- Seção 7 -->
+        <div class="glass-card rounded-2xl p-8 mb-8 content-block">
+            <h2 class="font-heading text-2xl font-bold text-white mb-4 border-b border-slate-700 pb-2">7) Projeção de Receita detalhada (assinaturas por faixa + TGC)</h2>
+            
+            <h3>7.1 Premissas financeiras usadas (auditáveis)</h3>
+            <ul>
+                <li>Ticket médio do mix por tonelada: R$ 1.626/t (derivado do benchmark do período Ago/2025–Mar/2026, usando faturamento e toneladas listadas).</li>
+                <li>Volume físico: rampa 5.000→26.000 t/mês (12 meses).</li>
+                <li>TGC decrescente 1,0%→0,6% conforme acima.</li>
+                <li>Assinaturas conforme Opção B.</li>
+            </ul>
+
+            <h3>7.2 Quantidade de assinaturas por plano (modelo-base “banca”)</h3>
+            <p>Aqui eu amarro volume e carteira por “perfil típico”, para fechar número sem fantasia. Você pode ajustar depois, mas está coerente e defensável.</p>
+            
+            <p><strong>M1 (5.000 t/mês)</strong></p>
+            <ul>
+                <li>Plano 0 (R$218): 50 assinantes</li>
+                <li>Plano 1 (R$500): 40 assinantes</li>
+                <li>Plano 2 (R$1.500): 10 assinantes</li>
+                <li>Plano 3 (R$3.000): 2 assinantes</li>
+            </ul>
+            <p>Receita de assinatura M1: 50×218 + 40×500 + 10×1500 + 2×3000 = <strong>R$ 51.900/mês</strong></p>
+
+            <p class="mt-4"><strong>M12 (26.000 t/mês)</strong></p>
+            <ul>
+                <li>Plano 0 (R$218): 300 assinantes</li>
+                <li>Plano 1 (R$500): 120 assinantes</li>
+                <li>Plano 2 (R$1.500): 30 assinantes</li>
+                <li>Plano 3 (R$3.000): 10 assinantes</li>
+            </ul>
+            <p>Receita de assinatura M12: <strong>R$ 200.400/mês</strong></p>
+
+            <h3>7.3 Receita por faixa (segmento) — M12</h3>
+            <ul>
+                <li>Micro/Pequenos (Plano 0 + Plano 1): R$ 65.400 + R$ 60.000 = R$ 125.400/mês</li>
+                <li>Médios (Plano 2): R$ 45.000/mês</li>
+                <li>Grandes (Plano 3): R$ 30.000/mês</li>
+            </ul>
+            <p>Observação “banca”: o modelo fica saudável porque não depende só do “ticket grande”; ele equilibra escala (assinatura) e performance (TGC).</p>
+
+            <h3>7.4 Receita de TGC (12 meses) — com 26k no M12</h3>
+            <p>Com a rampa e TGC definida, a receita anual de TGC (modelo-base) fica em torno de R$ 2,39 milhões/ano, e no M12:</p>
+            <ul>
+                <li>GMV M12: 26.000 × 1.626 = R$ 42.276.000</li>
+                <li>TGC M12 (0,6%): R$ 253.656/mês</li>
+            </ul>
+            <p class="text-white bg-brand-900/30 p-3 mt-4 rounded">✅ Conclusão: o motor principal de receita é TGC, e a assinatura dá estabilidade e previsibilidade.</p>
+        </div>
+
+        <!-- Seções 8 e 9 -->
+        <div class="glass-card rounded-2xl p-8 mb-8 content-block">
+            <h2 class="font-heading text-2xl font-bold text-white mb-4 border-b border-slate-700 pb-2">8) Estrutura de Custos (Goiânia) — atualizada com seus números</h2>
+            
+            <h3>8.1 Sala comercial (itens fixos)</h3>
+            <ul>
+                <li>Aluguel: R$ 2.200</li>
+                <li>Condomínio: R$ 450</li>
+                <li>Internet: R$ 250</li>
+                <li>IPTU (projeção): R$ 150 (ajustar quando tiver carnê)</li>
+                <li>Energia/água: R$ 350</li>
+                <li>Limpeza (diarista): R$ 700 (1x/semana; ajuste conforme rotina)</li>
+                <li>Café/copa/material: R$ 300</li>
+                <li>Material limpeza e pequenos reparos: R$ 150</li>
+            </ul>
+            <p>Total sala “all-in” (projeção): <strong>~R$ 4.550/mês</strong></p>
+
+            <h3>8.2 Pessoas (estrutura que você definiu)</h3>
+            <p><strong>M1–M7</strong><br>2 vendedores, 2 compradores/operadores, 1 adm/fin, direção (você) + IA/plataformas</p>
+            <p><strong>M8–M12</strong><br>+2 compradores (total 4)</p>
+            <p>Além disso:</p>
+            <ul>
+                <li>ferramentas (CRM/BI/automação): projeção R$ 4.000/mês</li>
+                <li>contábil/jurídico/compliance: R$ 3.000/mês</li>
+                <li>marketing+viagens: R$ 15.000/mês (início)</li>
+            </ul>
+
+            <h2 class="font-heading text-2xl font-bold text-white mb-4 mt-8 border-b border-slate-700 pb-2">9) Comissionamento eficiente (vendas e compras) — saudável para empresa e time</h2>
+            
+            <h3>9.1 Vendedores (base + variável que não “quebra” a empresa)</h3>
+            <p>Princípio correto: comissão em cima de receita real recebida (assinatura + TGC) e com estímulo à retenção.</p>
+            <p>Estrutura proposta (simples e defensável):</p>
+            <ul>
+                <li>Fixo: manter o salário base (como você pediu)</li>
+                <li>Variável 1 (aquisição):<br>10% do 1º mês de assinatura de cada novo cliente fechado<br>2% da assinatura nos meses 2 a 6 somente se o cliente estiver ativo e adimplente</li>
+                <li>Variável 2 (performance):<br>1,5% da TGC líquida recebida do cliente nos primeiros 6 meses</li>
+                <li>Bônus trimestral (qualidade):<br>bônus por churn baixo e inadimplência controlada (para evitar vender cliente ruim)</li>
+            </ul>
+            <p>Por que isso é bom em banca: remunera crescimento, mas obriga o vendedor a se importar com retenção e qualidade do fechamento.</p>
+
+            <h3>9.2 Compradores/Operadores (comissão que incentiva qualidade, não risco)</h3>
+            <p>Princípio correto: o comprador não pode ser remunerado só por “volume”, senão ele vira “fábrica de risco”.</p>
+            <p>Estrutura proposta:</p>
+            <ul>
+                <li>Fixo: manter salário base de comprador (como você pediu)</li>
+                <li>Variável mensal (pool do time):<br>até 4% da TGC líquida do mês vira um pool distribuído entre compradores conforme KPIs:<br>
+                30% SLA cumprido<br>
+                30% nota de auditoria amostral (qualidade de trilha e equalização)<br>
+                30% savings validado (sem distorção)<br>
+                10% satisfação do cliente/CS (NPS ou nota interna)</li>
+            </ul>
+            <p>Regra de travamento: se auditoria < 95% ou SLA < 90%, o pool reduz fortemente ou zera.<br>Isso faz a banca entender: “não é só vender, é entregar governança.”</p>
+        </div>
+
+        <!-- Seções 10 a 12 -->
+        <div class="glass-card rounded-2xl p-8 mb-8 content-block">
+            <h2 class="font-heading text-2xl font-bold text-white mb-4 border-b border-slate-700 pb-2">10) Gatilhos de contratação (colocar no plano)</h2>
+            <p>Gatilhos objetivos (auditáveis):</p>
+            <ul>
+                <li>contratar +1 comprador quando:<br>
+                > 80 contratos por comprador/mês por 2 meses consecutivos ou<br>
+                > 25.000 t/mês sustentadas por 2 meses ou<br>
+                SLA < 90% por 2 meses por excesso de fila</li>
+            </ul>
+            <p>E CS:</p>
+            <ul>
+                <li>contratar CS dedicado quando:<br>Plano 0 + Plano 1 ≥ 250 assinantes ou churn acima do tolerável.</li>
+            </ul>
+
+            <h2 class="font-heading text-2xl font-bold text-white mb-4 mt-8 border-b border-slate-700 pb-2">11) Marketing (R$ 15k/mês no início) — quantos leads e de qual segmento?</h2>
+            <p>Aqui é importante separar lead de lead qualificado para compra terceirizada.</p>
+            
+            <h3>11.1 Base técnica (o que sabemos de B2B no Brasil)</h3>
+            <ul>
+                <li>O Panorama B2B da Leadster mostra conversão mediana por canal: Meta Ads ~4,11%, Google Ads ~3,00%, LinkedIn Ads ~2,23%.</li>
+                <li>Estudos de marketing B2B no Brasil reforçam que mídia paga (especialmente Google) é protagonista, mas prospecção ativa continua pilar central.</li>
+                <li>Referências de mercado apontam CPL B2B com grande variação; há fontes que citam faixas típicas em dólares, com manufatura na casa de ~$136.</li>
+            </ul>
+
+            <h3>11.2 Estimativa prática (modelo-base, sem fantasia)</h3>
+            <p>Com R$ 15k/mês, eu sugiro “banca” em 3 frentes:</p>
+            <p><strong>(A) Demanda com intenção (Google Ads) — 6k</strong><br>foco em termos com intenção (“comprar farelo de soja”, “cotação milho”, “compras ração”)<br>esperado: poucos leads, mas mais quentes (tendem a ser Plano 1 e 2)</p>
+            <p><strong>(B) Remarketing e escala (Meta) — 3k</strong><br>reforça lembrança, empurra Plano 0 e Plano 1</p>
+            <p><strong>(C) ABM e autoridade (LinkedIn + Conteúdo) — 6k</strong><br>não para volume de leads, mas para qualidade e “topo executivo”<br>complementado com conteúdo “founder-led” (você)</p>
+
+            <p><strong>Faixa de leads/mês esperada (conservador → agressivo):</strong></p>
+            <ul>
+                <li>Plano 0/1 (pequenos): 30–70 leads/mês (mais volume, menor qualificação)</li>
+                <li>Plano 2 (médios): 8–20 leads/mês</li>
+                <li>Plano 3 (grandes): 2–6 leads/mês (normalmente via ABM + prospecção ativa, não só tráfego)</li>
+            </ul>
+            <p>A parte mais importante: com 15k/mês, o pilar para médio e grande não é só tráfego; é ABM + prospecção ativa + rede.</p>
+
+            <h2 class="font-heading text-2xl font-bold text-white mb-4 mt-8 border-b border-slate-700 pb-2">12) Trilha de economia “perfeita” (metodologia completa, equalização 360, trilha, crédito com teto)</h2>
+            
+            <h3>12.1 Metodologia de Savings (apuração)</h3>
+            <ul>
+                <li><strong>Passo 1 — Baseline (linha de base):</strong> baseline por item = preço médio dos últimos X dias ou preço de referência do índice BuyOff. Baseline sempre documentado.</li>
+                <li><strong>Passo 2 — Equalização 360:</strong> comprovação de equivalência: especificação, condição, entrega, pagamento, frete/seguro quando aplicável.</li>
+                <li><strong>Passo 3 — Cálculo do saving:</strong> saving = (baseline equalizado – preço comprado equalizado) × quantidade. Evidência anexada ao registro.</li>
+                <li><strong>Passo 4 — Validação:</strong> validação mensal com cliente (painel e relatório). Saving consolidado por categoria e por período.</li>
+            </ul>
+
+            <h3>12.2 Política de crédito (quando não entregou “menor preço”)</h3>
+            <p>Se aparecer uma alternativa comprovadamente menor nas mesmas condições equalizadas, aplica-se:</p>
+            <p>crédito = diferença × quantidade<br>crédito abate TGC futura até quitar</p>
+            <p><strong>Teto (para blindar caixa):</strong></p>
+            <ul>
+                <li>crédito mensal limitado a até 100% da TGC do mês daquele cliente</li>
+                <li>crédito expira em X meses (ex.: 12) para não virar passivo eterno</li>
+            </ul>
+            <p>Isso é robusto e defendável em auditoria.</p>
+        </div>
+
+        <!-- Seções 13 a 17 -->
+        <div class="glass-card rounded-2xl p-8 mb-8 content-block">
+            <h2 class="font-heading text-2xl font-bold text-white mb-4 border-b border-slate-700 pb-2">13) SLAs por plano + limites contratuais (claros e “sem brecha”)</h2>
+            <ul>
+                <li><strong>Plano 0 (Radar Diário — R$218)</strong><br>SLA de suporte: fila / horário comercial<br>limite: X solicitações de cotação/mês (ex.: 5)<br>sem consultoria individual<br>sem QBR<br>execução: pay-per-use + TGC</li>
+                <li><strong>Plano 1 (Básico — R$500)</strong><br>SLA de resposta de cotação: até X horas (ex.: 24h úteis)<br>inclui execução padronizada dentro das categorias foco<br>relatórios: diário + semanal</li>
+                <li><strong>Plano 2 (Intermediário — R$1500)</strong><br>SLA de resposta: X horas (ex.: 8h úteis)<br>inclui equalização 360 + recomendação + execução<br>inclui relatório semanal e mensal simplificado<br>limite de processos de compra/mês (definir; excedente vira adicional)</li>
+                <li><strong>Plano 3 (Completo — R$3000)</strong><br>SLA: prioridades por criticidade (ex.: 4h úteis em itens críticos)<br>inclui governança mensal + QBR trimestral<br>inclui scorecard e mapa de risco<br>inclui política de estoque mínimo (itens críticos)<br>escopo: “todos os itens da formulação” com calendário e gestão por categoria (exceções formalizadas por aditivo)</li>
+            </ul>
+
+            <h2 class="font-heading text-2xl font-bold text-white mb-4 mt-8 border-b border-slate-700 pb-2">14) Linha de Produção (operação) — desenho final</h2>
+            <ul>
+                <li><strong>Linha 1 — Inteligência:</strong> coleta → curadoria → índice → publicação (dashboard diário/semanal/mensal)</li>
+                <li><strong>Linha 2 — Compra:</strong> demanda → cotação multi-origem → equalização 360 → recomendação → aprovação</li>
+                <li><strong>Linha 3 — Execução e pós-compra:</strong> pedido → entrega → registro de performance → tratativa de não conformidades</li>
+                <li><strong>Linha 4 — Governança:</strong> relatório mensal → apuração de savings → risco → scorecard → QBR → plano 90 dias</li>
+            </ul>
+
+            <h2 class="font-heading text-2xl font-bold text-white mb-4 mt-8 border-b border-slate-700 pb-2">15) CS desde o dia 1 (bem feito)</h2>
+            <p><strong>Health Score (nota do cliente)</strong></p>
+            <ul>
+                <li>uso do dashboard (frequência)</li>
+                <li>nº de compras geridas</li>
+                <li>saving validado</li>
+                <li>ocorrências (ruptura/não conformidade)</li>
+                <li>adimplência</li>
+                <li>participação em ritos (mensal/QBR)</li>
+            </ul>
+            <p><strong>Cadência</strong></p>
+            <ul>
+                <li>Plano 0/1: CS “1 para muitos” (comunicação e fila)</li>
+                <li>Plano 2: check quinzenal + mensal</li>
+                <li>Plano 3: mensal + QBR</li>
+            </ul>
+
+            <h2 class="font-heading text-2xl font-bold text-white mb-4 mt-8 border-b border-slate-700 pb-2">16) Auditoria amostral (formato pronto para contrato e banca)</h2>
+            <p><strong>Objetivo:</strong> Provar isenção e método sem travar operação.</p>
+            <p><strong>Modelo:</strong></p>
+            <ul>
+                <li>mensal: auditoria de 5% das compras do mês ou mínimo de 10 operações, o que for maior</li>
+                <li>seleção:<br>50% aleatória (sorteio)<br>50% dirigida por risco (itens críticos, variação, fornecedor novo)</li>
+                <li>relatório:<br>checklist de equalização 360<br>evidências anexas<br>nota de conformidade<br>plano de correção (se necessário)</li>
+            </ul>
+            <p><strong>Extra (para grandes):</strong> auditoria trimestral “deep dive” em 1 categoria inteira.</p>
+
+            <h2 class="font-heading text-2xl font-bold text-white mb-4 mt-8 border-b border-slate-700 pb-2">17) Riscos e blindagens (para não passar vergonha em grandes contas)</h2>
+            <ul>
+                <li><strong>Risco A — Conflito de interesse (principal):</strong> Blindagem: BuyOff só recebe do cliente + trilha auditável + auditoria amostral.</li>
+                <li><strong>Risco B — Escopo infinito (morte silenciosa de margem):</strong> Blindagem: limites contratuais por plano, SLAs e add-ons claros.</li>
+                <li><strong>Risco C — Operação estourar (SLA cai):</strong> Blindagem: gatilho de contratação + squads + linha de produção + CS.</li>
+                <li><strong>Risco D — Concentração em farelo (72–74%):</strong> Blindagem: estratégia por categoria + logística + plano de diversificação gradual (DDG, óleo, milho, soja, sorgo).</li>
+                <li><strong>Risco E — Oscilação de preço (queda de GMV reduz TGC):</strong> Blindagem: assinatura + pay-per-use + diversificação de serviços (governança, risco, logística).</li>
+                <li><strong>Risco F — Segurança da informação/LGPD:</strong> Blindagem: controles de acesso, segregação, logs, NDA, política interna.</li>
+            </ul>
+        </div>
+
+        <!-- Respostas Finais -->
+        <div class="glass-card rounded-2xl p-8 mb-8 content-block border-l-4 border-slate-500 bg-dark-900">
+            <h2 class="font-heading text-2xl font-bold text-white mb-4">Resposta direta às suas perguntas centrais</h2>
+            
+            <p><strong>1) “Atualize o % do farelo”</strong><br>
+            Atualizado: ~71,9% dos contratos no ano e ~73,4% no período Ago–Mar; em toneladas listadas ~74,1%. Base-case do plano passa a 72–74%.</p>
+
+            <p class="mt-4"><strong>2) “Rampa 26k t/mês — a conta fecha?”</strong><br>
+            Com TGC 1%→0,6% e assinatura escalando como modelado, fecha, desde que:<br>
+            plano 218 seja produto (sem virar consultoria),<br>
+            escopo esteja protegido,<br>
+            contratações sigam gatilhos.</p>
+
+            <p class="mt-4"><strong>3) “Quero receita detalhada por faixa”</strong><br>
+            Entregue com contagem por plano M1 e M12 + receita por segmento. Se você quiser, na próxima rodada eu coloco a tabela mensal (M1…M12) com:<br>
+            toneladas, GMV, TGC, assinatura, receita total, OPEX e EBITDA.</p>
+
+            <p class="mt-4"><strong>4) “15k de marketing gera quantos leads?”</strong><br>
+            Eu te dei uma faixa realista por segmento e o racional por canal, amarrado a benchmarks de conversão B2B por canal (Leadster) e à necessidade de combinar mídia paga com prospecção ativa (Intelligenzia).</p>
+        </div>
+
+        <!-- Parte Antiga - Minerva Ata -->
+        <div class="glass-card rounded-2xl p-8 mb-8 content-block border border-brand-500/20">
+            <h2 class="font-heading text-2xl font-bold text-white mb-4 border-b border-slate-700 pb-2">Itens de Ação e Decisões Chave (Reunião Minerva)</h2>
+            <p>Contexto da operação onde o modelo de compra direta/buy-off viabilizará atuar sem comissionamento cruzado:</p>
+            
+            <h3>Itens de Ação</h3>
+            <ul>
+                <li><strong>@[Okamoto]</strong> Fazer um estudo de proximidade dos clientes com as unidades da Minerva.</li>
+                <li><strong>@[Minerva]</strong> Disponibilizar a lista de unidades e as fichas técnicas dos produtos para análise da Okamoto.</li>
+                <li><strong>@[Minerva]</strong> Enviar a lista de todas as plantas e fichas técnicas para a Okamoto.</li>
+                <li><strong>@[Okamoto]</strong> Focar em encontrar clientes dentro de um modelo de compra e revenda.</li>
+                <li><strong>@[Okamoto]</strong> Buscar oportunidades concretas na sua carteira e apresentar as propostas para a Minerva.</li>
+                <li><strong>@[Speaker 2]</strong> Enviar a nova identidade visual da Goianita, o vídeo da nova identidade da Vid e o site da construtora para Speaker 3 avaliar o trabalho de branding do Fábio.</li>
+            </ul>
+
+            <h3>Decisões Chave</h3>
+            <ul>
+                <li>A empresa não cortará o fornecimento a um cliente existente, mas poderá reduzir o volume alocado para atender a um novo parceiro com uma oferta mais vantajosa.</li>
+                <li>A Minerva, embora prefira o modelo de compra e revenda, não fecha a porta para a parceria, reconhecendo o valor da extensa carteira de clientes da Okamoto.</li>
+            </ul>
+        </div>
+
         <footer class="mt-16 text-center text-slate-500 text-sm">
-            <p>Plano de Negócios Consolidado (v1.4) e Diretrizes Estratégicas.</p>
-            <p class="mt-2 text-xs">Projeto BuyOff | Confidencial</p>
+            <p>Plano de Negócios Consolidado (v1.4)</p>
+            <p class="mt-2 text-xs">Projeto BuyOff</p>
         </footer>
     </div>
 </body>
